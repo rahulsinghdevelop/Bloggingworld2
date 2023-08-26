@@ -1,0 +1,171 @@
+/*header css start*/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: rgb(137, 71, 223);
+    border-radius: 10px;
+    color: rgb(24, 22, 22);
+}
+.navbar .navbar-nav form:hover{
+    background-color: coral;
+}
+header{
+    background-color:black;
+}
+.container-modal .btn{
+width: 100%;
+}
+
+
+
+/*footer starts from here*/
+footer{
+    background-color: rgb(26, 3, 3);
+    position: sticky;
+    top: 100%;
+    width: 100%;
+}
+.container a{
+    margin: 0px 10px;
+    color: darkviolet;
+}
+.container i{
+    font-size: 15px;
+}
+.container a:hover{ 
+    color: gold;
+}
+footer p{
+  color: rgb(99, 26, 26);
+
+}
+ 
+
+/* index starts from here*/
+.bg{
+    /* background: url("../images/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: bisque;
+    height: 100vh;
+}
+.container-fluid img{
+    height: 70%;
+    width: 70%;
+    
+}
+.section-index{
+    margin-top: 80px;
+}
+.pagination-top{
+    margin-top: 15px;
+}
+.pagination-top .pagination .page-link:hover{
+    background-color: cadetblue;
+    color: black;
+}
+@media screen and (max-width:450px){
+    .container-fluid img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+ 
+/*contact us*/
+.bg2{
+    
+    background: url("background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.contact-img img{
+    width: 100%;
+    height: 100%;
+}
+.contact{
+    margin-top: 9%;
+}
+.contact button{
+    width: 100%;
+}
+.contact form{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+@media  screen and (max-width:450px) {
+    .contact{
+        margin-top: 19%;
+    }
+    .contact-img img{
+        display: none;
+    }
+    .contact form{
+        /* padding: 25px; */
+        background-color: darkgray;
+        border:none;
+        box-shadow: 10px 10px 10px black;
+    }
+    
+    .bg2{
+        padding: 15px;
+    }
+}
+
+/*About us css*/
+.bg-about{
+    height: 100vh;
+}
+.container-about{
+    margin-top: 9%;
+}
+.container-about img{
+    width: 100%;
+    height: 100%;
+}
+.container-about i{
+    font-size: 25px;
+}
+.about-para{
+    font-weight: 300;
+    font-size: large;
+    font-family: sans-serif;
+}
+@media  screen and (max-width:450px) {
+    .container-about{
+        margin-top: 19%;
+    }
+}
+
+/*single page css */
+
+.bg-4{
+    height: 100vh;
+}
+.single-container img{
+    width: 100%;
+    height: 70%;    
+}
+.single-container{
+    margin-top: 7%;
+}
+.bg-4{
+    background-color: rgba(186, 198, 10, 0.427);
+}
+.single-container p{
+    font-weight: 300;
+    font-size: large;
+    font-family: sans-serif;
+}
+@media screen and (max-width:450px){
+    .single-container{
+        margin-top: 15%;
+    }
+}
